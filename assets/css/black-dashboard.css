@@ -14066,7 +14066,7 @@ fieldset[disabled] .btn-link.active {
 
 .btn-round {
   border-width: 1px;
-  border-radius: 50%;
+  border-radius: 30px;
 }
 
 .btn-round.btn-simple {
@@ -17415,7 +17415,7 @@ table.tablesorter thead tr .headerSortDown {
  /* margin-top: 80px;
   margin-left: 20px;*/
   border-radius: 0;
-  transition: 0.3s cubic-bezier(0.685, 0.0473, 0.346, 1);
+  transition: all 300ms ease 0s;
 }
 
 .sidebar .nav li.active>[data-toggle=collapse], .sidebar .nav li .dropdown-menu a:focus, .sidebar .nav li .dropdown-menu a:hover, .sidebar .nav li:hover>a {
@@ -17985,6 +17985,7 @@ table.tablesorter thead tr .headerSortDown {
 .main-panel>.content {
   padding: 78px 30px 30px 280px;
   min-height: calc(100vh - 70px);
+  transition: all 300ms ease 0s;
 }
 
 .main-panel>.navbar {
@@ -18026,17 +18027,17 @@ table.tablesorter thead tr .headerSortDown {
 
   .sidebar-mini .sidebar {
     width: 80px;
-    transition: 0.3s cubic-bezier(0.685, 0.0473, 0.346, 1);
+    transition: all 300ms ease 0s;
   }
 
   .sidebar-mini .sidebar:hover ~ .main-panel>.content {
     padding-left: 280px;
-    transition: 0.3s cubic-bezier(0.685, 0.0473, 0.346, 1);
+    transition: all 300ms ease 0s;
   }
 
   .sidebar-mini .sidebar:hover ~ .main-panel>.navbar {
     padding-left: 260px;
-    transition: 0.3s cubic-bezier(0.685, 0.0473, 0.346, 1);
+    transition: all 300ms ease 0s;
   }
 
   .sidebar-mini .sidebar .sidebar-wrapper {
@@ -18077,7 +18078,7 @@ table.tablesorter thead tr .headerSortDown {
 
   .sidebar-mini .sidebar:hover {
     width: 260px;
-    transition: 0.3s cubic-bezier(0.685, 0.0473, 0.346, 1);
+    transition: all 300ms ease 0s;
   }
 
   .sidebar-mini .sidebar:hover .logo a.logo-normal {
@@ -18095,7 +18096,7 @@ table.tablesorter thead tr .headerSortDown {
 
   .sidebar-mini .sidebar:hover .sidebar-wrapper {
     width: 260px;
-    transition: 0.3s cubic-bezier(0.685, 0.0473, 0.346, 1);
+    transition: all 300ms ease 0s;
   }
 
   .sidebar-mini .sidebar:hover .sidebar-wrapper>.nav li>a p,
@@ -18116,12 +18117,12 @@ table.tablesorter thead tr .headerSortDown {
 
   .sidebar-mini .main-panel>.content {
     padding-left: 100px;
-    transition: 0.3s cubic-bezier(0.685, 0.0473, 0.346, 1);
+    transition: all 300ms ease 0s;
   }
 
   .sidebar-mini .main-panel>.navbar {
     padding-left: 90px;
-    transition: 0.3s cubic-bezier(0.685, 0.0473, 0.346, 1);
+    transition: all 300ms ease 0s;
   }
 
   .sidebar-mini footer {
@@ -18133,6 +18134,11 @@ table.tablesorter thead tr .headerSortDown {
   }
 
   .navbar-minimize button i {
+    color: #1e1e2e;
+    font-size: 20px;
+  }
+
+  .white-content .navbar-minimize button i {
     color: #ffffff;
     font-size: 20px;
   }

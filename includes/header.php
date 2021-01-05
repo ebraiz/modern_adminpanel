@@ -45,19 +45,19 @@
             <div class="collapse" id="collapseExample">
               <ul class="nav">
                 <li class="nav-item">
-                  <a class="nav-link" href="#">
+                  <a class="nav-link" href="javascript:void(0)">
                     <span class="sidebar-mini"> MP </span>
                     <span class="sidebar-normal"> My Profile </span>
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">
+                  <a class="nav-link" href="javascript:void(0)">
                     <span class="sidebar-mini"> EP </span>
                     <span class="sidebar-normal"> Edit Profile </span>
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">
+                  <a class="nav-link" href="javascript:void(0)">
                     <span class="sidebar-mini"> S </span>
                     <span class="sidebar-normal"> Settings </span>
                   </a>
@@ -92,7 +92,7 @@
                   <div class="collapse" id="componentsCollapse">
                     <ul class="nav">
                       <li class="nav-item ">
-                        <a class="nav-link" href="#0">
+                        <a class="nav-link" href="javascript:void(0)">
                           <span class="sidebar-mini"> E </span>
                           <span class="sidebar-normal"> Example </span>
                         </a>
@@ -101,39 +101,21 @@
                   </div>
                 </li>
                 <li class="nav-item ">
-                  <a class="nav-link" href="#">
+                  <a class="nav-link" href="javascript:void(0)">
                     <span class="sidebar-mini"> B </span>
                     <span class="sidebar-normal"> Buttons </span>
                   </a>
                 </li>
                 <li class="nav-item ">
-                  <a class="nav-link" href="#">
+                  <a class="nav-link" href="javascript:void(0)">
                     <span class="sidebar-mini"> GS </span>
                     <span class="sidebar-normal"> Grid System </span>
                   </a>
                 </li>
                 <li class="nav-item ">
-                  <a class="nav-link" href="#">
+                  <a class="nav-link" href="javascript:void(0)">
                     <span class="sidebar-mini"> P </span>
                     <span class="sidebar-normal"> Panels </span>
-                  </a>
-                </li>
-                <li class="nav-item ">
-                  <a class="nav-link" href="#">
-                    <span class="sidebar-mini"> SA </span>
-                    <span class="sidebar-normal"> Sweet Alert </span>
-                  </a>
-                </li>
-                <li class="nav-item ">
-                  <a class="nav-link" href="#">
-                    <span class="sidebar-mini"> N </span>
-                    <span class="sidebar-normal"> Notifications </span>
-                  </a>
-                </li>
-                <li class="nav-item ">
-                  <a class="nav-link" href="#">
-                    <span class="sidebar-mini"> I </span>
-                    <span class="sidebar-normal"> Icons </span>
                   </a>
                 </li>
               </ul>
@@ -149,27 +131,9 @@
             <div class="collapse" id="pagesExamples" style="">
               <ul class="nav">
                 <li class="nav-item ">
-                  <a class="nav-link" href="../examples/pages/pricing.php">
-                    <span class="sidebar-mini"> P </span>
-                    <span class="sidebar-normal"> Pricing </span>
-                  </a>
-                </li>
-                <li class="nav-item ">
-                  <a class="nav-link" href="../examples/pages/rtl.php">
-                    <span class="sidebar-mini"> RS </span>
-                    <span class="sidebar-normal"> RTL Support </span>
-                  </a>
-                </li>
-                <li class="nav-item ">
-                  <a class="nav-link" href="../examples/pages/timeline.php">
-                    <span class="sidebar-mini"> T </span>
-                    <span class="sidebar-normal"> Timeline </span>
-                  </a>
-                </li>
-                <li class="nav-item ">
-                  <a class="nav-link" href="../examples/pages/login.php">
-                    <span class="sidebar-mini"> LP </span>
-                    <span class="sidebar-normal"> Login Page </span>
+                  <a class="nav-link" href="./rtl.php">
+                    <span class="sidebar-mini"> R </span>
+                    <span class="sidebar-normal"> RTL </span>
                   </a>
                 </li>
               </ul>
